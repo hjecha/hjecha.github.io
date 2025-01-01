@@ -1,0 +1,52 @@
+html,body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.hide {
+	display:none;
+}
+.show {
+	display:flex;
+}
+
+.screen {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.gameobject {
+	position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+	width: 100px;
+	z-index: 1;
+}
+
+.objectimage{
+    padding: 3px;
+	max-height: 80px;
+	width: auto;
+}
+
+.headtext{
+    font-size: 20px;
+	text-align: center;
+}
+
+.settings{
+	height:50px;
+	width:500px;
+	font-size:50px;
+	text-align:center;
+	border-color:black;
+	border-style:solid;
+}
